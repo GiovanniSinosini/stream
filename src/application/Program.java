@@ -8,6 +8,8 @@ public class Program {
 
 	public static void main(String[] args) {
 
+		//Demos
+		
 		List<Integer> list = Arrays.asList (3, 4, 5, 10, 7);
 		
 		Stream<Integer> st1 = list.stream().map(x -> x * 10 );
